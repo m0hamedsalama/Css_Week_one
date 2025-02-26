@@ -1,0 +1,45 @@
+/* التكليف الاول */
+/* .parent div span {
+    color: red;
+}
+
+.parent span {
+    color: blue;
+}
+
+.parent~div,
+p {
+    color: green;
+}
+
+/* div~div {
+    color: green;*
+}  */
+
+/* التكليف الثانى */
+/* div {
+    width: 400px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-overflow: none;
+}
+
+.one {
+    width: fit-content;
+}
+
+.two {
+    width: fit-content;
+}
+
+.three {
+    width: fit-content;
+}
+
+.four {
+    color: black;
+    overflow: hidden;
+} */

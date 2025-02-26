@@ -1,0 +1,64 @@
+/* التكليف الاول */
+.parent {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #483131;
+}
+
+.one,
+.third,
+.half,
+.quarter {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    margin: 15px 0 0 15px;
+    float: left;
+}
+
+.one {
+    width: calc(100% - 30px);
+}
+
+.third {
+    width: calc((100% - 60px) / 3);
+
+}
+
+.half {
+    width: calc((100% - 45px) / 2);
+}
+
+
+.quarter {
+    width: calc((100% - 75px) / 4);
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+
+/* التكليف الثانى */
+/* div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: cadetblue;
+    color: black;
+}
+
+.one {
+    background-color: rgb(95, 158, 160, 0.1);
+}
+
+.two {
+    opacity: 0.1;
+}  */

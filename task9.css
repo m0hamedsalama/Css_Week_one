@@ -1,0 +1,105 @@
+/* التكليف الاول */
+/* div {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 40px;
+}
+
+div:empty {
+    background-color: red;
+} */
+
+
+
+
+/* التكليف الثانى */
+/* div {
+    background-color: #eee;
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+div::before {
+    content: "1";
+    width: 25px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: -11px;
+} */
+
+
+/* التكليف الثالث */
+/* p {
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    border-left: 2px solid rgb(65, 42, 42);
+    position: relative;
+}
+
+p::before {
+    content: attr(data-person);
+    width: 100px;
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e8abab;
+    top: -9px;
+    left: -185px;
+}
+
+p::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-right: 10px solid rgb(65, 42, 42);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 9px;
+    left: -11px;
+} */
+
+
+
+
+/* التكليف الرابع */
+p {
+    background-color: #eee;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 600px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    border-right: 5px solid red;
+    position: relative;
+    counter-increment: count;
+}
+
+p::before {
+    content: counter(count);
+    width: 20px;
+    margin: 20px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}

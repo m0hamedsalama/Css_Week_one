@@ -1,0 +1,173 @@
+/* التكليف الاول */
+/* div {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+}
+
+.green {
+    background-color: green;
+    z-index: 7;
+    top: 150px;
+    left: 200px;
+}
+
+.red {
+    background-color: red;
+    z-index: 10;
+    top: 170px;
+    left: 215px;
+}
+
+.blue {
+    background-color: blue;
+    z-index: 5;
+    top: 135px;
+    left: 185px;
+}
+
+.black {
+    background-color: black;
+    top: 150px;
+    left: 185px;
+} */
+
+
+
+
+/* التكليف الثانى */
+/* .parent {
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #eee;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    position: relative;
+}
+
+.parent span {
+    width: 25px;
+    height: 23px;
+    background-color: rgb(152, 152, 185);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+.top-left {
+    top: -12px;
+    left: -12px;
+    border-right: 2px solid red;
+}
+
+.bottom-left {
+    top: 83px;
+    left: -12px;
+    border-right: 2px solid red;
+}
+
+.top-right {
+    top: 83px;
+    left: 405px;
+    border-left: 2px solid red;
+}
+
+.bottom-right {
+    top: -12px;
+    left: 405px;
+    border-left: 2px solid red;
+} */
+
+
+
+/* التكليف الثالث */
+/* .parent {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #eee;
+    list-style-type: none;
+}
+
+.html {
+    padding: 5px;
+}
+
+.html ol li {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: decimal;
+}
+
+.css {
+    padding: 5px;
+}
+
+.css ol li {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: upper-roman;
+}
+
+.js {
+    padding: 5px;
+}
+
+.js ul li {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: disc;
+    list-style-position: inside;
+} */
+
+
+
+
+
+
+/* التكليف الرابع */
+table {
+    border-bottom: 4px solid black;
+    border-spacing: 0px;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+caption {
+    font-weight: bold;
+    margin: 10px;
+}
+
+table td {
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #eee;
+    text-align: center;
+}
+
+table thead td {
+    font-weight: bolder;
+    background-color: rgb(122, 78, 78);
+    color: white;
+    text-align: center;
+    border-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.v {
+    background-color: rgb(112, 112, 147);
+    color: white;
+}
+
+.d {
+    background-color: rgb(122, 78, 78);
+    color: white;
+}
