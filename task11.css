@@ -1,0 +1,82 @@
+.parent {
+    background-color: #eee;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 200px auto;
+    font-size: 20px;
+    position: relative;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-property: margin;
+    transition-timing-function: ease;
+}
+
+.child {
+    background-color: aquamarine;
+    text-align: center;
+    width: 460px;
+    height: 50px;
+    margin: 20px auto;
+    padding: 10px auto;
+    top: 45px;
+    left: 40px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-property: margin;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+}
+
+.parent:hover {
+    margin: 20px auto;
+}
+
+.parent:hover .child {
+    margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+/* التكليف الثانى */
+/* div {
+    background-color: #eee !important;
+    text-align: center;
+    color: black !important;
+    font-size: 20px !important;
+    border: none !important;
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+
+div::after {
+    content: "Elzero" !important;
+    position: absolute;
+    background-color: #eee;
+    width: 100px;
+    left: 165px;
+} */
+
+
+
+
+/* التكليف الثالث */
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} 
+
+div {
+    width: 500px;
+    border: 2px solid var(--mainColor, black);
+    color: var(--mainColor, red);
+    margin: 20px auto;
+    padding: var(--mainPadding, 10px);
+} */
