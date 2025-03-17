@@ -1,0 +1,276 @@
+/* التكليف الاول */
+/* div {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-left: 5px solid rgb(142, 142, 192);
+    border-right: 5px solid orangered;
+    border-radius: 50%;
+    color: orangered;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+} */
+
+
+
+
+
+
+/* التكليف الثانى */
+/* .parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    background-color: #eee;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.parent div {
+    background-color: orangered;
+    margin: 2px;
+    padding: 10px;
+    width: 175px;
+    color: white;
+    text-align: center;
+} */
+
+
+
+
+/* التكليف الثالث */
+/* .parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.parent div {
+    background-color: rgb(18, 90, 126);
+    padding: 10px;
+    color: white;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one {
+    order: 6;
+    align-self: flex-end;
+}
+
+.two {
+    order: 5;
+    align-self: stretch;
+
+}
+
+.three {
+    order: 2;
+}
+
+.four {
+    order: 3;
+    align-self: stretch;
+}
+
+.five {
+    order: 4;
+    align-self: stretch;
+}
+
+.six {
+    order: 1;
+    align-self: stretch;
+} */
+
+
+
+
+
+
+/* التكليف الرابع */
+/* .parent {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.parent div {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.two {
+    align-self: flex-start;
+    width: 250px;
+    height: 100px;
+}
+
+.one,
+.three {
+    height: 100px;
+} */
+
+
+
+
+
+
+/* التكليف الخامس */
+/* .parent {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.parent div {
+    color: white;
+    height: 50%;
+    width: calc((100% - 150px) / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: orange;
+    order: 2;
+}
+
+.two {
+    background-color: yellowgreen;
+    order: 3;
+    align-self: flex-end;
+}
+
+.three {
+    background-color: rgb(204, 98, 98);
+    order: 4;
+}
+
+.four {
+    background-color: rgb(124, 124, 217);
+    order: 1;
+    align-self: flex-end;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* التكليف السادس */
+.page {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.header {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    background-color: #cac4c4;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    background-color: #cac4c4;
+    list-style: none;
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.links li {
+    background-color: #cac4c4;
+    padding: 7px;
+}
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+    height: 215px;
+    margin-bottom: 10px;
+}
+
+.content {
+    background-color: #cac4c4;
+    padding: 10px;
+    width: 61%;
+
+}
+
+.sidebar {
+    background-color: #cac4c4;
+    padding: 10px;
+    width: 30%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    background-color: #cac4c4;
+    padding: 10px;
+    width: 114%;
+
+}
+
+.design {
+    background-color: #cac4c4;
+    padding: 10px;
+    width: 35%;
+}
